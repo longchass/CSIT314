@@ -1,0 +1,61 @@
+[
+    {
+       "category": "numOfPar",
+       "choices": [
+          "< 3",
+          "3",
+          "> 3"
+       ]
+    },
+    {
+       "category": "option1",
+       "choices": [
+          "exist",
+          "not exist"
+       ]
+    },
+    {
+       "category": "option2",
+       "choices": [
+          "exist",
+          "not exist"
+       ]
+    },
+    {
+       "category": "option3",
+       "choices": [
+          "exist",
+          "not exist"
+       ]
+    },
+    {
+       "category": "badOption",
+       "choices": [
+          "exist",
+          "not exist"
+       ]
+    },
+    {
+       "category": "file1",
+       "choices": [
+          "contents sorted",
+          "not exist",
+          "contents unsorted"
+       ]
+    },
+    {
+       "category": "file2",
+       "choices": [
+          "contents sorted",
+          "not exist",
+          "contents unsorted"
+       ]
+    },
+    {
+       "category": "commonLines",
+       "choices": [
+          "exist",
+          "not exist"
+       ]
+    }
+ ]

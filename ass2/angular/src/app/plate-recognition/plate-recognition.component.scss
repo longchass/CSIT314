@@ -1,0 +1,20 @@
+.image-preview {
+    height: 200px;
+    object-fit: cover;
+}
+
+.loading-panel {
+    display: fit-content;
+    text-align: center;
+}
+
+.loading-panel-panel {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.image-detail-result {
+    height: 200px;
+    padding: 2rem;
+}

@@ -1,0 +1,26 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header card-header-danger">
+            <h4 class="card-title ">Categories and Choices</h4>
+            <p class="card-category">Edit categories and choices</p>
+          </div>
+          <div class="card-body text-right">
+            <button mat-icon-button color="primary" (click)="addCategory()" class="mb-3 mr-3">
+              <mat-icon>add</mat-icon>
+            </button>
+            <button mat-icon-button color="primary" (click)="deleteCategory()" class="mb-3" *ngIf="selectedCategory">
+              <mat-icon>delete</mat-icon>
+            </button>
+            <ag-grid-angular style="height: 500px;" class="ag-theme-alpine w-100" [rowData]="rowData"
+              (selectionChanged)="onSelectionChanged($event)" (gridReady)="onGridReady($event)" #agGrid
+              [columnDefs]="columnDefs" rowSelection="single" (cellValueChanged)="updateCategories($event)">
+            </ag-grid-angular>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

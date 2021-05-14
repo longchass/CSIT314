@@ -1,0 +1,15 @@
+.console-body {
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.loading-panel {
+    display: fit-content;
+    text-align: center;
+}
+
+.loading-panel-panel {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
