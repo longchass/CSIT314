@@ -37,4 +37,18 @@ feed the .csv or .xsls that includes metadata of pictures in the categories that
 
 beside displaying on the front end the outputs picture with bounding box and confidence level will also be saved to \Object detection server\outputs
 
-![Sample running of the program](https://github.com/longchass/images/blob/master/artvsrt.gif)
+The front-end server (angular) will download the pictures from the internet. (Local picture dataset upload currently not implemented)
+
+There are 4 cases of output
+
+1st case: ART detect the error first (+1 for ART mark)
+2nd case: RT  detect the error frist (+1 for RT  mark)
+3rd case: ART and RT does not detect any errors (10% test of all attribute is allowed) (+1 for draw)
+4th case: The stable model does not output the same result as the metadata provided in the unit test (+1 for draw) (test oracle does not have same data as unit test problem)
+
+spec of machine ran in gif
+
+Processor:	AMD Ryzen Threadripper 3970X 32-Core Processor, 3722 Mhz, 32 Core(s), 64 Logical Processor(s)
+Graphic Processing Unit: NVIDIA GeForce RTX 2080 SUPER with compute capability: 7.5 (according to [cuda](https://developer.nvidia.com/cuda-gpus#compute) )
+
+![Sample running of the program](https://github.com/longchass/images/blob/master/Animation.gif)
