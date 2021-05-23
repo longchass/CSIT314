@@ -5,7 +5,7 @@ an extention upon the idea of [FSCS ART vs RT](https://github.com/longchass/CSIT
 this paper: https://www.sciencedirect.com/science/article/abs/pii/S0164121209000405
 ## How to run
 
-
+### sample models
 download two models one with seeded error and one is normal 
  
 seeded error
@@ -16,7 +16,7 @@ https://drive.google.com/file/d/1QyeAHTAzuHBjFEvvKI31jmC3x-f3JVES/view?usp=shari
 
 and put it into /Object detection server/models
 
-Preparation
+### Preparation
 cd into /ART vs RT server/ass2/angular/
 type "npm start" into console and run
 uses npm (requires npm)
@@ -39,6 +39,8 @@ beside displaying on the front end the outputs picture with bounding box and con
 
 The front-end server (angular) will download the pictures from the internet. (Local picture dataset upload currently not implemented)
 
+## Cases
+
 There are 4 cases of output
 
 1st case: ART detect the error first (+1 for ART mark)
@@ -49,7 +51,7 @@ There are 4 cases of output
 
 4th case: The stable model does not output the same result as the metadata provided in the unit test (+1 for draw) (test oracle does not have same data as unit test problem)
 
-## spec of machine ran in gif
+## Spec of machine ran in gif
 
 Processor:	AMD Ryzen Threadripper 3970X 32-Core Processor, 3722 Mhz, 32 Core(s), 64 Logical Processor(s)
 
