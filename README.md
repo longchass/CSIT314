@@ -5,7 +5,7 @@ an extention upon the idea of [FSCS ART vs RT](https://github.com/longchass/CSIT
 this paper: https://www.sciencedirect.com/science/article/abs/pii/S0164121209000405
 ## How to run
 
-### sample models
+### Sample models
 download two models one with seeded error and one is normal 
  
 seeded error
