@@ -9,7 +9,7 @@ this paper: https://www.sciencedirect.com/science/article/abs/pii/S0164121209000
 download two models one with seeded error and one is normal 
  
 seeded error
-https://drive.google.com/file/d/1-V_nK9en33oHJmlSd-BFpU9c82ZE8OUo/view?usp=sharing, 
+https://drive.google.com/file/d/1-V_nK9en33oHJmlSd-BFpU9c82ZE8OUo/view?usp=sharing , 
 
 no seeded error
 https://drive.google.com/file/d/1QyeAHTAzuHBjFEvvKI31jmC3x-f3JVES/view?usp=sharing
