@@ -1,7 +1,7 @@
 # CSIT314
 ## Abstract
 a simple program to automatic test of [keras tensorflow models](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/python/keras):
-an extention upon the idea of [FSCS ART vs RT] (https://github.com/longchass/CSIT318-ART-vs-RT) shown on
+an extention upon the idea of [FSCS ART vs RT](https://github.com/longchass/CSIT318-ART-vs-RT) shown on
 this paper: https://www.sciencedirect.com/science/article/abs/pii/S0164121209000405
 ## How to run
 
