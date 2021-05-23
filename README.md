@@ -37,4 +37,4 @@ feed the .csv or .xsls that includes metadata of pictures in the categories that
 
 beside displaying on the front end the outputs picture with bounding box and confidence level will also be saved to \Object detection server\outputs
 
-![gif of the program running](https://github.com/longchass/images/blob/master/artvsrt.gif)
+![Sample running of the program](https://github.com/longchass/images/blob/master/artvsrt.gif)
